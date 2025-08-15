@@ -6,27 +6,30 @@ The project is built entirely in Python, leveraging popular data science librari
 
 ## Key Features
 
-- **Content-Based Filtering:** Recommends movies based on shared genres, keywords, cast members, and director.  
-- **Fast and Efficient:** Uses a pre-computed similarity matrix to provide instant recommendations.  
-- **Extensive Dataset:** Utilizes the TMDB 5000 movie dataset for a wide range of movies.  
-- **Interactive CLI:** Includes a simple command-line interface for easy user interaction.  
+- **Content-Based Filtering:** Recommends movies based on shared genres, keywords, cast members, and director.
+- **Fast and Efficient:** Uses a pre-computed similarity matrix to provide instant recommendations.
+- **Extensive Dataset:** Utilizes the TMDB 5000 movie dataset for a wide range of movies.
+- **Interactive CLI:** Includes a simple command-line interface for easy user interaction.
 
 ## Technologies Used
 
-- **Python:** The core programming language for the project.  
-- **Pandas:** Used for data manipulation and cleaning.  
-- **Scikit-learn:** Provides tools for text vectorization (`CountVectorizer`) and similarity calculation (`cosine_similarity`).  
-- **Pickle:** Used to serialize and save the final data and model objects for later use.  
+- **Python:** The core programming language for the project.
+- **Pandas:** Used for data manipulation and cleaning.
+- **Scikit-learn:** Provides tools for text vectorization (`CountVectorizer`) and similarity calculation (`cosine_similarity`).
+- **Pickle:** Used to serialize and save the final data and model objects for later use.
 
 ## How to Run the Project
 
 Follow these steps to run the project on your local machine:
 
 ### Step 1: Prerequisites
+
 Make sure you have Python installed. Then, install the required libraries:
 
 ```bash
 pip install pandas scikit-learn
+```
+
 ### Step 2: Get the Data
 
 Download the tmdb_5000_movies.csv and tmdb_5000_credits.csv datasets.
@@ -39,12 +42,16 @@ Run the original Jupyter Notebook (Movie_Recommendation_System.ipynb) to perform
 ### Step 4: Run the Command-Line Application
 
 After generating the model files, run the CLI application:
+
 ```bash
 python app.py
+
+```
 
 You will be prompted to enter a movie title to receive recommendations.
 
 ### Example Usage
+
 ```bash
 Welcome to the Movie Recommender!
 Type 'exit' to quit.
@@ -56,3 +63,4 @@ Recommendations for 'Avatar':
 - Alien
 - Star Trek Into Darkness
 - Silent Running
+```
