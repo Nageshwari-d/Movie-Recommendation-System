@@ -1,0 +1,6 @@
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text
+Movie-Recommendation-System/*.pkl filter=lfs diff=lfs merge=lfs -text
+Movie-Recommendation-System/*.exe filter=lfs diff=lfs merge=lfs -text
+Movie-Recommendation-System/similarity.pkl filter=lfs diff=lfs merge=lfs -text
+Movie-Recommendation-System/movies.pkl filter=lfs diff=lfs merge=lfs -text
