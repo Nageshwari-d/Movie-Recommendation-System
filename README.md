@@ -37,7 +37,7 @@ Place these files in your project directory.
 
 ### Step 3: Run the Jupyter Notebook
 
-Run the original Jupyter Notebook (Movie_Recommendation_System.ipynb) to perform data processing and create the movies.pkl and similarity.pkl files.
+Run the original Jupyter Notebook `bash(Movie_Recommendation_System.ipynb)` to perform data processing and create the `bash movies.pkl ` and `bash similarity.pkl ` files.
 
 ### Step 4: Run the Command-Line Application
 
